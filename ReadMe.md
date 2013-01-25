@@ -33,6 +33,10 @@ The following URL will create an URL action in Drafts:
 
 <drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522>
 
+Source:
+
+	drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522
+
 ## Step 3: Create Pythonista Script
 
 Paste the contents of Drafts.py into a new Pythonista file. It **must have the title: DraftsGist**.
