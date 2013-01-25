@@ -29,13 +29,15 @@ You can verify the token is enabled at: <https://github.com/settings/application
 
 ##Step 2: Create a Drafts URL Action
 
-The following URL will create an URL action in Drafts:
+Paste the following URL into Mobile Safari to a create an URL action in Drafts:
 
-<drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522>
 
-Source:
+drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522
 
-	drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522
+Or manually create a URL Action:
+
+	pythonista://DraftsGist?action=run&args=%22[[title]]%22%20%22[[body]]%22
+
 
 ## Step 3: Create Pythonista Script
 
@@ -54,8 +56,8 @@ Easy peasy. Format your note as such:
 	
 Use the Gist action to send the note to  Pythonista. Once gist is created, a web browser will open to show the raw contents of the gist.
 
-[test][3]
+
 
 [1]: http://agiletortoise.com/drafts
 [2]: http://omz-software.com/pythonista/
-[3]: drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522
+
