@@ -54,6 +54,8 @@ Easy peasy. Format your note as such:
 	
 Use the Gist action to send the note to  Pythonista. Once gist is created, a web browser will open to show the raw contents of the gist.
 
+[test][3]
 
 [1]: http://agiletortoise.com/drafts
 [2]: http://omz-software.com/pythonista/
+[3]: drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522
