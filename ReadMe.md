@@ -48,7 +48,7 @@ Easy peasy. Format your note as such:
 	
 	This will be the third paragraph of the note.
 	
-Use the Gist action and the note will be sent to Pythonista. Once gist is created, a web browser will open to show the raw contents of the gist.
+Use the Gist action to send the note to  Pythonista. Once gist is created, a web browser will open to show the raw contents of the gist.
 
 
 [1]: http://agiletortoise.com/drafts
