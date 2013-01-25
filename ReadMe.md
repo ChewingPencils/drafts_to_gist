@@ -46,7 +46,7 @@ Easy peasy. Format your note as such:
 	
 	Line breaks are preserved.
 	
-	This will be the third paragraph of the note
+	This will be the third paragraph of the note.
 	
 Use the Gist action and the note will be sent to Pythonista. Once gist is created, a web browser will open to show the raw contents of the gist.
 
