@@ -12,11 +12,11 @@ A [Drafts App][1] URL action combined with a python script for creating quick gi
 
 ### Step 1: Create GitHub OAuth token
     
-Since this script is ment to be run on an iOS app, a GitHub OAuth token must be created prior to use. It's easy to create a token using curl from the terminal. Make sure to **add your GitHub username** to the following command:
+Since this script runs on an iOS app, a GitHub OAuth token must be created prior to use. It's easy to create a token using curl from the terminal. Make sure to **add your GitHub username** to the following command:
 
     curl https://api.github.com/authorizations \
     --user "YOUR_GITHUB_USERNAME" \
-    --data '{"scopes":["gist"],"note":"Demo"}'
+    --data '{"scopes":["gist"],"note":"Drafts"}'
 
 ### Edit DraftsGist.py
 The response will contain a line: `"token" : foo` where foo is the token string.
