@@ -42,7 +42,7 @@ Paste the contents of Drafts.py into a new Pythonista file. It **must have the t
 Easy peasy. Format your note as such:
 
 	This is the first line of the note and the gist's title
-	Everything else is the content of the note.
+	Everything else is the content of the note. This is the 1st paragraph.
 	
 	Line breaks are preserved.
 	
