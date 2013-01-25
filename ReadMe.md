@@ -1,6 +1,6 @@
 # Drafts App Action: Create Gist
 
-A [Drafts App][1] URL action and python script for creating quick gists on iOS. 
+A [Drafts App][1] URL action combined with a python script for creating quick gists on iOS. 
 
 ## Requirements
 
