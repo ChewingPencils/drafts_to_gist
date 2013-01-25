@@ -29,7 +29,7 @@ You can verify the token is enabled at: <https://github.com/settings/application
 
 ##Step 2: Create a Drafts URL Action
 
-Paste the following URL into Mobile Safari to a create an URL action in Drafts (Or [click here](http://e0l.co/MRB9):
+Paste the following URL into Mobile Safari to a create an URL action in Drafts (Or [click here](http://e0l.co/MRB9)):
 
 
 	drafts://x-callback-url/import_action?type=URL&name=Gist&url=pythonista%3A%2F%2FDraftsGist%3Faction%3Drun%26args%3D%2522%5B%5Btitle%5D%5D%2522%2520%2522%5B%5Bbody%5D%5D%2522
