@@ -57,7 +57,7 @@ def main():
     gistResponse = makeGist(apiURL, payload)
 
     # In case anyone wants to see the data returned
-    #pp.pprint(parsed_json)
+    # pp.pprint(parsed_json)
     webbrowser.open(gistResponse["files"][gistTitle]["raw_url"])
 
 if __name__ == '__main__':
